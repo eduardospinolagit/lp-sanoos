@@ -228,8 +228,8 @@ label.f small{color:var(--mut2)}
   }
 
   const URL_CADASTRO = 'https://app.sanolab.com.br/api/publico/cadastro';
-  /* PRÉVIA: enquanto o cadastro não está no ar, o botão mostra a tela de sucesso sem enviar nada. Trocar para false ao publicar. */
-  const MODO_PREVIA = true;
+  /* PRÉVIA: true mostra a tela de sucesso sem enviar nada (só para testar o visual). Em produção fica false. */
+  const MODO_PREVIA = false;
   /* Contra robôs: Cloudflare Turnstile (chave no HTML, a secreta fica só no servidor), campo-armadilha "site" e tempo mínimo de preenchimento */
   const aberto = Date.now();
   const card = document.querySelector('.card'), form = card.querySelector('form'), msg = form.querySelector('.msg');
