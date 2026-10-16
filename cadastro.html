@@ -92,7 +92,8 @@ label.f small{color:var(--mut2)}
 .pw button{position:absolute;right:8px;top:50%;transform:translateY(-50%);font-size:12.5px;color:var(--mut);padding:6px 8px}
 .forca{height:4px;border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden;margin-top:2px}
 .forca i{display:block;height:100%;width:0;background:var(--lime);border-radius:4px;transition:width .3s var(--ease),background .3s}
-.robo{min-height:65px;border-radius:12px;overflow:hidden}
+/* Turnstile: o recorte de 2px some com a borda cinza do widget e arredonda os cantos */
+.robo{height:65px;line-height:0;border-radius:12px;overflow:hidden;clip-path:inset(2px round 12px)}
 .robo .cf-turnstile{width:100%}
 .aceite{display:flex;gap:10px;align-items:flex-start;font-size:12.5px;color:var(--mut);line-height:1.45;cursor:pointer}
 .aceite a{color:var(--tx);text-decoration:underline;text-decoration-color:rgba(195,234,101,.5);text-underline-offset:2px}
