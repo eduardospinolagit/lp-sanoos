@@ -1,0 +1,75 @@
+# SanoOS
+
+> O SanoOS é um sistema comercial online, feito no Brasil pela Sano Lab, para quem vende serviços digitais para empresas locais: sites, social media, tráfego pago, automação e agentes de IA, e agências. Ele encontra leads por nicho e cidade, escreve a abordagem de cada lead com IA e organiza a negociação até o contrato assinado. Tem plano grátis.
+
+Site: https://lp-sanoos.vercel.app/
+Criar conta: https://lp-sanoos.vercel.app/cadastro
+Entrar no sistema: https://app.sanolab.com.br/login
+Empresa: Sano Lab (https://sanolab.com.br), contato@sanolab.com.br
+Idioma: português do Brasil. Funciona no navegador, no computador e no celular.
+
+## O que o SanoOS faz
+
+- Minerar leads: busca empresas por nicho e cidade, com telefone, nota no Google e sinais de oportunidade, como "sem site".
+- Mensagens com IA: escreve uma abordagem personalizada para cada lead, usando o que encontrou sobre a empresa. A pessoa revisa antes de enviar.
+- Copiloto: indica o próximo passo de cada negociação.
+- Playbook: regras e respostas para objeções que a IA segue ao escrever (inclui método SPIN).
+- CRM, contatos, pipeline e tarefas: histórico, etapa e follow-ups de cada contato.
+- Agenda, chat e arquivos por cliente.
+- Contratos: modelos próprios preenchidos e enviados para assinatura digital.
+- Relatórios: funil, pipeline por etapa e taxa de conversão.
+- No plano Milion: agente de IA que atende no WhatsApp, marketing com calendário e aprovação de posts, e financeiro da operação.
+
+## Para quem é
+
+Freelancers e agências que vendem sites, social media, tráfego pago, automação e agentes de IA para empresas locais e querem prospectar com processo, sem planilha nem várias ferramentas separadas.
+
+## Planos e preços (em reais, outubro de 2026)
+
+- Grátis: R$ 0. Para conhecer o sistema, com créditos para as primeiras buscas de leads e mensagens com IA. Inclui mineração de leads, mensagens com IA, CRM e pipeline.
+- Prospect: R$ 184 por mês, ou R$ 1.766 por ano no plano anual (20% de desconto, equivale a R$ 147 por mês). Inclui mineração de leads, mensagens com IA, copiloto, playbook, CRM, pipeline, tarefas, agenda, chat, arquivos, contratos com assinatura digital e relatórios.
+- Milion: R$ 397 por mês, ou R$ 3.811 por ano no anual. Tudo do Prospect, mais agente de IA no WhatsApp, marketing e financeiro. Ainda não aberto (abre em breve).
+
+## Perguntas frequentes
+
+### Já tentei outras ferramentas e não vendi mais. Por que o SanoOS seria diferente?
+
+A maioria das ferramentas só organiza leads. O SanoOS trabalha a parte que faz vender: encontra quem realmente precisa do seu serviço, escreve a abordagem com os dados de cada empresa e o copiloto mostra o próximo passo de cada conversa até o fechamento.
+
+### A mensagem gerada pela IA não vai parecer robótica?
+
+Não, porque ela não é um modelo com o nome trocado. A IA usa o que encontrou sobre o lead, como nota no Google, se tem site e como atende os clientes, e escreve uma mensagem só para ele. Você revisa e ajusta antes de enviar.
+
+### Serve para o tipo de serviço que eu vendo?
+
+Se você vende site, social media, tráfego, automação com IA ou trabalha em agência, sim. O SanoOS foi feito para quem vende serviço digital para empresas locais.
+
+### Preciso entender de tecnologia para usar?
+
+Não. Você escolhe o nicho e a cidade e o sistema faz o resto. Cada etapa tem um passo a passo dentro do SanoOS.
+
+### Qual a diferença entre o Prospect e o Milion?
+
+O Prospect tem tudo para prospectar e fechar: mineração de leads, gerador de mensagens, copiloto, CRM, pipeline, tarefas, agenda, contratos e relatórios. O Milion soma o agente de IA que responde por você, o marketing e o financeiro.
+
+### Como começo a usar?
+
+Clique em Começar grátis, crie a sua conta e confirme o e-mail. No plano grátis você começa sem pagar, com créditos para as primeiras buscas e mensagens, e passa para o Prospect quando quiser. O Milion abre em breve.
+
+### O plano grátis tem limite?
+
+Tem créditos de mineração e de mensagens para você conhecer o sistema com leads de verdade. Quando quiser prospectar todo dia, é só passar para o Prospect.
+
+### Vale a pena pagar no anual?
+
+Se você vai usar o ano todo, sim. No anual você paga 20% a menos: o Prospect sai por R$ 147 por mês (R$ 1.766 no ano, R$ 442 de economia). Você escolhe entre mensal e anual na hora de assinar.
+
+### Meus leads e clientes ficam seguros?
+
+Ficam. Cada conta tem os dados isolados, e ninguém de outra conta enxerga seus contatos, conversas, contratos ou arquivos. O SanoOS também funciona no celular, direto do navegador.
+
+## Links
+
+- [Página do SanoOS](https://lp-sanoos.vercel.app/): apresentação, recursos, planos e perguntas frequentes.
+- [Termos de uso e privacidade](https://lp-sanoos.vercel.app/termos)
+- [Criar conta grátis](https://lp-sanoos.vercel.app/cadastro?plano=gratis)
