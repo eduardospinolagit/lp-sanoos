@@ -2,8 +2,8 @@
 
 > O SanoOS é um sistema comercial online, feito no Brasil pela Sano Lab, para quem vende serviços digitais para empresas locais: sites, social media, tráfego pago, automação e agentes de IA, e agências. Ele encontra leads por nicho e cidade, escreve a abordagem de cada lead com IA e organiza a negociação até o contrato assinado. Tem plano grátis.
 
-Site: https://lp-sanoos.vercel.app/
-Criar conta: https://lp-sanoos.vercel.app/cadastro
+Site: https://sanoos.sanolab.com.br/
+Criar conta: https://sanoos.sanolab.com.br/cadastro
 Entrar no sistema: https://app.sanolab.com.br/login
 Empresa: Sano Lab (https://sanolab.com.br), contato@sanolab.com.br
 Idioma: português do Brasil. Funciona no navegador, no computador e no celular.
@@ -70,6 +70,6 @@ Ficam. Cada conta tem os dados isolados, e ninguém de outra conta enxerga seus 
 
 ## Links
 
-- [Página do SanoOS](https://lp-sanoos.vercel.app/): apresentação, recursos, planos e perguntas frequentes.
-- [Termos de uso e privacidade](https://lp-sanoos.vercel.app/termos)
-- [Criar conta grátis](https://lp-sanoos.vercel.app/cadastro?plano=gratis)
+- [Página do SanoOS](https://sanoos.sanolab.com.br/): apresentação, recursos, planos e perguntas frequentes.
+- [Termos de uso e privacidade](https://sanoos.sanolab.com.br/termos)
+- [Criar conta grátis](https://sanoos.sanolab.com.br/cadastro?plano=gratis)
