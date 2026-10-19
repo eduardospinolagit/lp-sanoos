@@ -9,6 +9,8 @@
 <title>SanoOS | Encontre, aborde e feche clientes num só sistema</title>
 <meta name="description" content="O SanoOS reúne mineração de leads, mensagens com IA, CRM, pipeline, contratos e entrega num único sistema. Para quem vende sites, marketing e agentes de IA. Comece grátis.">
 <link rel="canonical" href="https://sanoos.sanolab.com.br/">
+<link rel="alternate" hreflang="pt-BR" href="https://sanoos.sanolab.com.br/">
+<link rel="alternate" hreflang="x-default" href="https://sanoos.sanolab.com.br/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="author" content="Sano Lab">
 <meta name="application-name" content="SanoOS">
@@ -37,7 +39,14 @@
    "@type": "Organization",
    "@id": "https://sanoos.sanolab.com.br/#sanolab",
    "name": "Sano Lab",
-   "url": "https://sanolab.com.br"
+   "url": "https://sanolab.com.br",
+   "logo": "https://sanoos.sanolab.com.br/midia/icon-512.png",
+   "email": "contato@sanolab.com.br",
+   "areaServed": "BR",
+   "sameAs": [
+    "https://instagram.com/sanolab",
+    "https://linkedin.com/company/sanolab"
+   ]
   },
   {
    "@type": "WebSite",
@@ -62,7 +71,11 @@
    "about": {
     "@id": "https://sanoos.sanolab.com.br/#app"
    },
-   "primaryImageOfPage": "https://sanoos.sanolab.com.br/midia/og-sanoos.jpg"
+   "primaryImageOfPage": "https://sanoos.sanolab.com.br/midia/og-sanoos.jpg",
+   "video": {
+    "@id": "https://sanoos.sanolab.com.br/#video"
+   },
+   "dateModified": "2026-10-19"
   },
   {
    "@type": "SoftwareApplication",
@@ -144,6 +157,33 @@
    "publisher": {
     "@id": "https://sanoos.sanolab.com.br/#sanolab"
    }
+  },
+  {
+   "@type": "VideoObject",
+   "@id": "https://sanoos.sanolab.com.br/#video",
+   "name": "Apresentação do SanoOS",
+   "description": "Em 33 segundos, como o SanoOS encontra leads, escreve a abordagem com IA, conduz a conversa e fecha o contrato.",
+   "inLanguage": "pt-BR",
+   "thumbnailUrl": "https://sanoos.sanolab.com.br/midia/sanoos-ad-16x9.jpg",
+   "contentUrl": "https://sanoos.sanolab.com.br/midia/sanoos-ad-16x9.mp4",
+   "uploadDate": "2026-10-15T12:00:00-03:00",
+   "duration": "PT33S",
+   "publisher": {
+    "@id": "https://sanoos.sanolab.com.br/#sanolab"
+   }
+  },
+  {
+   "@type": "HowTo",
+   "@id": "https://sanoos.sanolab.com.br/#como-funciona",
+   "name": "Como conseguir clientes com o SanoOS",
+   "inLanguage": "pt-BR",
+   "step": [
+    {"@type": "HowToStep", "position": 1, "name": "Minerar", "text": "Busque empresas no Google Maps por nicho e cidade. O SanoOS traz telefone, nota no Google e sinais de oportunidade, como empresa sem site, e analisa cada uma com IA."},
+    {"@type": "HowToStep", "position": 2, "name": "Abordar", "text": "A IA escreve uma mensagem para cada lead com o que encontrou sobre a empresa. Você revisa e envia."},
+    {"@type": "HowToStep", "position": 3, "name": "Conduzir", "text": "O copiloto indica o próximo passo de cada conversa e o playbook responde às objeções. No plano Milion, o agente de IA atende no WhatsApp."},
+    {"@type": "HowToStep", "position": 4, "name": "Fechar", "text": "Gere o contrato a partir do seu modelo e envie para assinatura digital."},
+    {"@type": "HowToStep", "position": 5, "name": "Escalar", "text": "Acompanhe funil, conversão e, no plano Milion, o financeiro da operação com receita, recorrência e valores a receber."}
+   ]
   },
   {
    "@type": "FAQPage",
@@ -364,7 +404,7 @@ section,footer{position:relative;z-index:1}
 .idx-list li.on b{color:var(--lime)}
 .idx-list li.gold.on{color:var(--gold)}
 .idx-desc{display:none}
-.idx-desc h3{font-size:21px}
+.idx-desc .h{font-size:21px}
 .idx-desc p{color:var(--mut);font-size:14.5px;margin-top:6px;max-width:44ch}
 .stage{flex:1;min-height:0;perspective:1600px;display:flex;align-items:center;justify-content:center}
 .stage{container-type:size}
@@ -627,7 +667,7 @@ section,footer{position:relative;z-index:1}
   .idx-title{font-size:14.5px}
   .idx-list{flex-direction:column;gap:6px}
   .idx-list li{font-size:clamp(34px,3.6vw,52px);padding-bottom:10px;width:max-content}
-  .idx-desc h3{font-size:26px}
+  .idx-desc .h{font-size:26px}
   .idx-desc p{font-size:16px}
   .sb{display:block}
   .scene{padding:24px;gap:14px;font-size:13.5px}
@@ -749,8 +789,15 @@ section,footer{position:relative;z-index:1}
           <li>Fechar<u><i></i></u></li>
           <li class="gold">Escalar<u><i></i></u></li>
         </ol>
+        <ol class="sr">
+          <li>Minerar: busque empresas no Google Maps por nicho e cidade. O SanoOS traz telefone, nota no Google e sinais de oportunidade, como empresa sem site, e analisa cada uma com IA.</li>
+          <li>Abordar: a IA escreve uma mensagem para cada lead com o que encontrou sobre a empresa. Você revisa e envia.</li>
+          <li>Conduzir: o copiloto indica o próximo passo de cada conversa e o playbook responde às objeções. No plano Milion, o agente de IA atende no WhatsApp.</li>
+          <li>Fechar: gere o contrato a partir do seu modelo e envie para assinatura digital.</li>
+          <li>Escalar: acompanhe funil, conversão e, no plano Milion, o financeiro da operação com receita, recorrência e valores a receber.</li>
+        </ol>
         <div class="idx-desc">
-          <h3 class="h"></h3>
+          <div class="h"></div>
           <p></p>
         </div>
       </div>
@@ -1138,7 +1185,7 @@ section,footer{position:relative;z-index:1}
       if (k === i) { if (v.tagName === 'VIDEO') try { v.currentTime = 0; } catch (e) {} if (procVisivel) tocar(v); } else pausar(v);
     });
     desc.style.visibility = DESC[i] ? 'visible' : 'hidden';
-    desc.querySelector('h3').textContent = DESC[i] ? DESC[i][0] : ''; desc.querySelector('p').textContent = DESC[i] ? DESC[i][1] : '';
+    desc.querySelector('.h').textContent = DESC[i] ? DESC[i][0] : ''; desc.querySelector('p').textContent = DESC[i] ? DESC[i][1] : '';
     if (DESC[i]) gsap.fromTo(desc.children, { y: 18, opacity: 0 }, { y: 0, opacity: 1, duration: .5, stagger: .06, ease: 'power3.out' });
     num.textContent = String(i + 1).padStart(2, '0');
     gsap.fromTo(num, { yPercent: prev < i ? 40 : -40, opacity: 0 }, { yPercent: 0, opacity: 1, duration: .7, ease: 'expo.out' });

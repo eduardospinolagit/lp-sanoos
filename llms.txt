@@ -7,6 +7,7 @@ Criar conta: https://sanoos.sanolab.com.br/cadastro
 Entrar no sistema: https://app.sanolab.com.br/login
 Empresa: Sano Lab (https://sanolab.com.br), contato@sanolab.com.br
 Idioma: português do Brasil. Funciona no navegador, no computador e no celular.
+Redes da Sano Lab: https://instagram.com/sanolab e https://linkedin.com/company/sanolab
 
 ## O que o SanoOS faz
 
@@ -19,6 +20,14 @@ Idioma: português do Brasil. Funciona no navegador, no computador e no celular.
 - Contratos: modelos próprios preenchidos e enviados para assinatura digital.
 - Relatórios: funil, pipeline por etapa e taxa de conversão.
 - No plano Milion: agente de IA que atende no WhatsApp, marketing com calendário e aprovação de posts, e financeiro da operação.
+
+## Como funciona, em 5 etapas
+
+1. Minerar: busca empresas no Google Maps por nicho e cidade, com telefone, nota no Google e sinais de oportunidade, e analisa cada uma com IA.
+2. Abordar: a IA escreve uma mensagem para cada lead com o que encontrou sobre a empresa. A pessoa revisa e envia.
+3. Conduzir: o copiloto indica o próximo passo de cada conversa e o playbook responde às objeções. No plano Milion, o agente de IA atende no WhatsApp.
+4. Fechar: o contrato sai do modelo da própria pessoa e vai para assinatura digital.
+5. Escalar: funil, conversão e, no plano Milion, o financeiro da operação.
 
 ## Para quem é
 

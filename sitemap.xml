@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://sanoos.sanolab.com.br/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <image:image><image:loc>https://sanoos.sanolab.com.br/midia/og-sanoos.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://sanoos.sanolab.com.br/midia/sanoos-ad-16x9.jpg</video:thumbnail_loc>
+      <video:title>Apresentação do SanoOS</video:title>
+      <video:description>Em 33 segundos, como o SanoOS encontra leads, escreve a abordagem com IA, conduz a conversa e fecha o contrato.</video:description>
+      <video:content_loc>https://sanoos.sanolab.com.br/midia/sanoos-ad-16x9.mp4</video:content_loc>
+      <video:duration>33</video:duration>
+      <video:publication_date>2026-10-15T12:00:00-03:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://sanoos.sanolab.com.br/termos</loc>
