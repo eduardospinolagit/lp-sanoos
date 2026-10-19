@@ -1110,15 +1110,32 @@ section,footer{position:relative;z-index:1}
   ];
   const lis = gsap.utils.toArray('.idx-list li'), bars = gsap.utils.toArray('.idx-list li u i'), evs = gsap.utils.toArray('.ev');
   const list = document.querySelector('.idx-list'), desc = document.querySelector('.idx-desc'), num = document.querySelector('.bignum span');
-  let cur = -1, procVisivel = false;
+  let cur = -1, procVisivel = false, semVideo = false;
   evs.forEach(v => { v.loop = true; });
+  // iPhone em modo economia de energia recusa autoplay de vídeo: troca as etapas por WebP animado, que continua rodando
+  const tocar = v => {
+    if (v.tagName === 'IMG') { if (v.dataset.anim) { v.src = v.dataset.anim; delete v.dataset.anim; } return; }
+    v.preload = 'auto';
+    v.play().catch(e => { if (e && e.name === 'NotAllowedError') semAutoplay(); });
+  };
+  const pausar = v => { if (v.pause) v.pause(); };
+  const semAutoplay = () => {
+    if (semVideo) return; semVideo = true;
+    evs.forEach((v, k) => {
+      const img = document.createElement('img');
+      img.className = v.className; img.alt = ''; img.decoding = 'async'; img.src = v.poster;
+      img.dataset.anim = v.querySelector('source').getAttribute('src').replace(/\.mp4$/, '.webp');
+      v.replaceWith(img); evs[k] = img;
+    });
+    if (procVisivel && evs[cur]) tocar(evs[cur]);
+  };
   const setStep = i => {
     if (i === cur) return;
     const prev = cur; cur = i;
     lis.forEach((l, k) => l.classList.toggle('on', k === i));
     evs.forEach((v, k) => {
       v.classList.toggle('on', k === i);
-      if (k === i) { v.preload = 'auto'; try { v.currentTime = 0; } catch (e) {} if (procVisivel) v.play().catch(() => {}); } else v.pause();
+      if (k === i) { if (v.tagName === 'VIDEO') try { v.currentTime = 0; } catch (e) {} if (procVisivel) tocar(v); } else pausar(v);
     });
     desc.style.visibility = DESC[i] ? 'visible' : 'hidden';
     desc.querySelector('h3').textContent = DESC[i] ? DESC[i][0] : ''; desc.querySelector('p').textContent = DESC[i] ? DESC[i][1] : '';
@@ -1139,7 +1156,7 @@ section,footer{position:relative;z-index:1}
     }
   });
   setStep(0);
-  ScrollTrigger.create({ trigger: '#processo', start: 'top 80%', end: 'bottom 20%', onToggle: st => { procVisivel = st.isActive; const v = evs[cur]; if (!v) return; if (st.isActive) { v.preload = 'auto'; v.play().catch(() => {}); } else v.pause(); } });
+  ScrollTrigger.create({ trigger: '#processo', start: 'top 80%', end: 'bottom 20%', onToggle: st => { procVisivel = st.isActive; const v = evs[cur]; if (!v) return; if (st.isActive) tocar(v); else pausar(v); } });
   if (!reduce) {
     gsap.fromTo(screen, { rotateY: -16, rotateX: 10, scale: .9 }, { rotateY: 0, rotateX: 0, scale: 1, ease: 'none', scrollTrigger: { trigger: '#processo', start: 'top 85%', end: 'top top', scrub: 1 } });
   }
