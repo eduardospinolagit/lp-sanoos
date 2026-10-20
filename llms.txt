@@ -36,8 +36,8 @@ Freelancers e agências que vendem sites, social media, tráfego pago, automaç�
 ## Planos e preços (em reais, outubro de 2026)
 
 - Grátis: R$ 0. Para conhecer o sistema, com créditos para as primeiras buscas de leads e mensagens com IA. Inclui mineração de leads, mensagens com IA, CRM e pipeline.
-- Prospect: R$ 184 por mês, ou R$ 1.766 por ano no plano anual (20% de desconto, equivale a R$ 147 por mês). Inclui mineração de leads, mensagens com IA, copiloto, playbook, CRM, pipeline, tarefas, agenda, chat, arquivos, contratos com assinatura digital e relatórios.
-- Milion: R$ 397 por mês, ou R$ 3.811 por ano no anual. Tudo do Prospect, mais agente de IA no WhatsApp, marketing e financeiro. Ainda não aberto (abre em breve).
+- Prospect: R$ 67 por mês com o desconto por tempo limitado (preço cheio R$ 184), ou R$ 643 por ano no plano anual (mais 20% de desconto, equivale a R$ 53 por mês). Inclui mineração de leads, mensagens com IA, copiloto, playbook, CRM, pipeline, tarefas, agenda, chat, arquivos, contratos com assinatura digital e relatórios.
+- Milion: R$ 147 por mês com o desconto por tempo limitado (preço cheio R$ 397), ou R$ 1.411 por ano no anual. Tudo do Prospect, mais agente de IA no WhatsApp, marketing e financeiro. Ainda não aberto (abre em breve).
 
 ## Perguntas frequentes
 
@@ -71,7 +71,11 @@ Tem créditos de mineração e de mensagens para você conhecer o sistema com le
 
 ### Vale a pena pagar no anual?
 
-Se você vai usar o ano todo, sim. No anual você paga 20% a menos: o Prospect sai por R$ 147 por mês (R$ 1.766 no ano, R$ 442 de economia). Você escolhe entre mensal e anual na hora de assinar.
+Se você vai usar o ano todo, sim. No anual você paga mais 20% a menos, em cima do desconto: o Prospect sai por R$ 53 por mês (R$ 643 no ano). Você escolhe entre mensal e anual na hora de assinar.
+
+### Esse preço vai subir?
+
+Os planos estão com desconto por tempo limitado: o Prospect sai de R$ 184 por R$ 67 por mês, e o Milion de R$ 397 por R$ 147. Quem assina durante o desconto mantém esse preço enquanto a assinatura estiver ativa.
 
 ### Meus leads e clientes ficam seguros?
 
